@@ -17,6 +17,7 @@ import CardItem from "./components/card-item/CardItem";
 import { SCREENS } from "@shared-constants";
 import Text from "@shared-components/text-wrapper/TextWrapper";
 import fonts from "@fonts";
+import UserService from "./services/userService";
 
 const profileURI =
   // eslint-disable-next-line max-len
@@ -29,6 +30,19 @@ const HomeScreen: React.FC<HomeScreenProps> = () => {
   const { colors } = theme;
   const styles = useMemo(() => createStyles(theme), [theme]);
 
+  React.useEffect(() => {
+    const mockUserData = {
+      id: "301395-3150134",
+      username: "FreakyCoder",
+      fullname: "Kuray",
+      email: "freakycoder@gmail.com",
+      socialType: "google",
+      creationDate: 1652631678000,
+      photo: null,
+    };
+    UserService.setUserData(mockUserData);
+  }, []);
+
   const handleItemPress = () => {
     NavigationService.push(SCREENS.DETAIL);
   };
@@ -37,15 +51,15 @@ const HomeScreen: React.FC<HomeScreenProps> = () => {
   /*                               Render Methods                               */
   /* -------------------------------------------------------------------------- */
 
-  const MenuButton = () => (
+  const renderMenuButton = () => (
     <RNBounceable>
       <Icon name="menu" type="Ionicons" color={colors.iconBlack} size={30} />
     </RNBounceable>
   );
 
-  const Header = () => (
+  const renderHeader = () => (
     <View style={styles.header}>
-      <MenuButton />
+      {renderMenuButton()}
       <Image
         resizeMode="cover"
         source={{ uri: profileURI }}
@@ -54,7 +68,7 @@ const HomeScreen: React.FC<HomeScreenProps> = () => {
     </View>
   );
 
-  const List = () => (
+  const renderList = () => (
     <View style={styles.listContainer}>
       <FlatList
         data={MockData}
@@ -65,7 +79,7 @@ const HomeScreen: React.FC<HomeScreenProps> = () => {
     </View>
   );
 
-  const Welcome = () => (
+  const renderWelcome = () => (
     <>
       <Text h1 bold color={colors.text}>
         Hello Kuray
@@ -79,17 +93,17 @@ const HomeScreen: React.FC<HomeScreenProps> = () => {
     </>
   );
 
-  const Content = () => (
+  const renderContent = () => (
     <View style={styles.contentContainer}>
-      <Welcome />
-      <List />
+      {renderWelcome()}
+      {renderList()}
     </View>
   );
 
   return (
     <SafeAreaView style={styles.container}>
-      <Header />
-      <Content />
+      {renderHeader()}
+      {renderContent()}
     </SafeAreaView>
   );
 };
