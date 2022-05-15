@@ -34,8 +34,8 @@ We're proudly announce that `Version 3` is here!
 - **Typescript**
 - **Flipper Ready**
 - **Redux**
-- **Built-in Redux Services**
-- **Redux Toolkit**
+  - **Built-in Redux Services**
+  - **Redux Toolkit**
 - **Navigation System**
   - [React Navigation 6](https://reactnavigation.org/blog/2021/08/14/react-navigation-6.0/)
   - [React Navigation Helpers](https://github.com/WrathChaos/react-navigation-helpers)
