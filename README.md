@@ -10,7 +10,7 @@
 
 <p align="center">
   <img alt="React Native Typescript Redux Boilerplate"
-        src="assets/react-native-typescript-redux-boilerplate.gif" height="650" />
+        src="assets/react-native-typescript-boilerplate.gif" height="650" />
 </p>
 
 # 🥳 Version 3.3+
