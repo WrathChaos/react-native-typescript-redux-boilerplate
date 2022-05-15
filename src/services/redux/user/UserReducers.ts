@@ -2,7 +2,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 /**
  * ? Local Imports
  */
-import { IUser } from "@services/models/index";
+import { IUser } from "@services/models";
 
 export interface InitialState {
   userData: IUser | null;

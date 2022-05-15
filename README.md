@@ -1,16 +1,16 @@
-<img alt="React Native Typescript Boilerplate" src="assets/logo.png" width="1050"/>
+<img alt="React Native Typescript Redux Boilerplate" src="assets/logo.png" width="1050"/>
 
-[![A lot of fundamental features with Typescript support React Native Boilerplate](https://img.shields.io/badge/-A%20lot%20of%20fundamental%20features%20with%20Typescript%20support%20React%20Native%20Boilerplate-orange?style=for-the-badge)](https://github.com/WrathChaos/react-native-typescript-boilerplate)
+[![A lot of fundamental features with Typescript support React Native Boilerplate](https://img.shields.io/badge/-A%20lot%20of%20fundamental%20features%20with%20Typescript%20support%20React%20Native%20Boilerplate-orange?style=for-the-badge)](https://github.com/WrathChaos/react-native-typescript-redux-boilerplate)
 
-[![npm version](https://img.shields.io/npm/v/react-native-typescript-boilerplate.svg?style=for-the-badge)](https://www.npmjs.com/package/@freakycoder/react-native-typescript-boilerplate)
-[![npm](https://img.shields.io/npm/dt/react-native-typescript-boilerplate.svg?style=for-the-badge)](https://www.npmjs.com/package/@freakycoder/react-native-typescript-boilerplate)
+[![npm version](https://img.shields.io/npm/v/react-native-typescript-redux-boilerplate.svg?style=for-the-badge)](https://www.npmjs.com/package/@freakycoder/react-native-typescript-redux-boilerplate)
+[![npm](https://img.shields.io/npm/dt/react-native-typescript-redux-boilerplate.svg?style=for-the-badge)](https://www.npmjs.com/package/@freakycoder/react-native-typescript-redux-boilerplate)
 ![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-blue.svg?style=for-the-badge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
 
 <p align="center">
-  <img alt="React Native Typescript Boilerplate"
-        src="assets/react-native-typescript-boilerplate.gif" height="650" />
+  <img alt="React Native Typescript Redux Boilerplate"
+        src="assets/react-native-typescript-redux-boilerplate.gif" height="650" />
 </p>
 
 # 🥳 Version 3.3+
@@ -80,7 +80,7 @@ We're proudly announce that `Version 3` is here!
 To create a new project using the barebone boilerplate:
 
 ```sh
-git clone https://github.com/WrathChaos/react-native-typescript-boilerplate.git my-app-name
+git clone https://github.com/WrathChaos/react-native-typescript-redux-boilerplate.git my-app-name
 ```
 
 # 🎯 Step By Step Guide
@@ -165,8 +165,13 @@ sdk.dir=/Users/username/Library/Android/sdk
 
 - [Components](./docs/components.md)
 - [Axios Hooks](./docs/axios-hooks.md)
+- [Custom Redux](./docs/redux.md)
 - [Event Emitter Usage](./docs/event-emitter.md)
 - [Project Structure](./docs/project-structure.md)
+
+## Are you looking for Non-Redux Version? 
+
+### [React Native Typescript Boilerplate](https://github.com/WrathChaos/react-native-typescript-boilerplate)
 
 # 🔮 Roadmap
 
@@ -177,7 +182,8 @@ sdk.dir=/Users/username/Library/Android/sdk
 - [x] ~~Implement the native splash screen with [react-native-splash-screen](https://github.com/crazycodeboy/react-native-splash-screen)~~
 - [x] ~~Better and separated documentation~~
 - [x] ~~Axios Hooks~~
-- [ ] React Native New Architecture
+- [x] ~~React Native New Architecture~~
+- [x] ~~`Redux` Fork Version~~
 - [ ] `Babel Plugin Module Resolver` Documentation with Example
 - [ ] `Navigation Service` Documentation with Example
 - [ ] `Localization` Documentation with Example
@@ -186,7 +192,6 @@ sdk.dir=/Users/username/Library/Android/sdk
 - [ ] `Website` for the boilerplate
 - [ ] Splash Screen Documentation
 - [ ] `Detox E2E` Integration Fork Version
-- [ ] `Redux` Fork Version
 - [ ] `MobX State Tree` Fork Version
 - [ ] Write an article about the lib on `Medium`
 - [ ] Write an article about the lib on `DevTo`
@@ -203,4 +208,4 @@ FreakyCoder, kurayogun@gmail.com
 
 ## License
 
-React Native Typescript Boilerplate is available under the MIT license. See the LICENSE file for more info.
+React Native Typescript Redux Boilerplate is available under the MIT license. See the LICENSE file for more info.

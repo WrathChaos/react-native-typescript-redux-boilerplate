@@ -1,5 +1,5 @@
 {
-  "name": "react-native-typescript-boilerplate",
+  "name": "react-native-typescript-redux-boilerplate",
   "version": "3.3.0",
   "description": "React Native Template/Boilerplate for awesome applications, using Typescript with a lot of built-in ready features.",
   "dependencies": {
