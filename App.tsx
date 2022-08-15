@@ -17,8 +17,10 @@ LogBox.ignoreAllLogs();
 const App = () => {
   const scheme = useColorScheme();
   const isDarkMode = scheme === "dark";
+  console.log("store: ", store);
 
   React.useLayoutEffect(() => {
+    console.log("store: ", store);
     initializeReduxService(store.dispatch, store.getState);
   });
 
