@@ -13,7 +13,7 @@
         src="assets/react-native-typescript-boilerplate.gif" height="650" />
 </p>
 
-# 🥳 Version 3.3+
+# 🥳 Version 3.4+
 
 We're proudly announce that `Version 3` is here!
 
